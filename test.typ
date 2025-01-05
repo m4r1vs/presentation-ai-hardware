@@ -1,6 +1,7 @@
 #let title-page(title:[], subtitle:[], fill: yellow, body) = {
+  // set page( numbering: "1")
   set page(margin: (top: 1.5in, rest: 2in))
-  set text(font: "Noto Sans", size: 10pt)
+  set text(font: "EB Garamond", size: 10pt, lang: "de")
   set heading(numbering: "1.1.1")
   line(start: (0%, 0%), end: (8.5in, 0%), stroke: (thickness: 2pt))
   align(horizon + left)[
@@ -14,7 +15,17 @@
     #datetime.today().display()
   ]
   pagebreak()
-  set page(fill: none, margin: auto)
+  set page(fill: none, margin: auto, footer: context [
+    #text(size: 8pt, [
+      #title\
+      #link("mailto: marius.niveri@studium.uni-hamburg.de")[Marius Niveri (TODO)] 
+      #h(1fr)
+      #counter(page).display(
+        "1",
+        both: false,
+      )
+    ])
+  ])
   align(horizon, outline(indent: auto))
   pagebreak()
   body
@@ -29,9 +40,5 @@
   body
 )
 
-#set page(margin: 1.5in)
-= Introduction
-#lorem(100)
-
-== Subsection
-#lorem(100)
+= Einführung
+  Geht man 
