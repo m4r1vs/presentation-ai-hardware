@@ -29,16 +29,33 @@
   align(horizon, outline(indent: auto))
   pagebreak()
   body
+  pagebreak()
+  bibliography("bib.yaml")
 }
 
 #show: body => title-page(
   title: [Hardware-Beschleunigung für ML/AI: GPUs und TPUs],
   subtitle: [
     Seminar Supercomputer: Forschung und Innovation\
-    Bei #link("mailto: anna.fuchs@uni-hamburg.de")[Anna Fuchs] und #link("mailto: jannek.squar@uni-hamburg.de")[Jannek Squar]
+    Bei 
+    #link("mailto: anna.fuchs@uni-hamburg.de")[Anna Fuchs]
+    und
+    #link("mailto: jannek.squar@uni-hamburg.de")[Jannek Squar]
   ],
   body
 )
 
 = Einführung
-  Geht man 
+Der Markt für Chips zum Ausführen von KI- und ML-Programmen wird aktuell stark
+von hochparallelisierbaren Prozessoren dominiert. Dazu zählen die
+"Graphical Processing Units" (GPUs) aber auch speziellere xPUs. @NvTheChipBBC
+
+== Aktueller Stand
+Eine Der @JenH200Sam
+
+Um die Ursache dieser Entwicklung zu erklären, werden wir uns mit der Ökonomie
+von KI- und ML- Hardware beschäftigen. Da die Kosteneffizienz quasi direkt von
+der Energieeffizienz und Geschwindigkeit abhängt, werden wir uns im Detail
+sowohl mit der Hardwarearchitektur, als auch der softwareseitigen Programmierung
+solcher Chips befassen.
+

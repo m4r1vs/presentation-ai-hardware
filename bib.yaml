@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/typst/hayagriva/3bab47a7dd3cc0d23d19740e9ff697c9598b3ac1/hayagriva.schema.json
+NvTheChipBBC:
+  type: newspaper
+  title: "Nvidia: The chip maker that became an AI superpower"
+  author:
+    - Zoe Corbyn
+    - Ben Morris
+  date: 2023-05-30
+  url: https://www.bbc.com/news/business-65675027
+  publisher: BBC
+
+BenchPerfGPU:
+  type: article
+  title: "Benchmarking the Performance and Energy Efficiency of AI Accelerators for AI Training"
+  author:
+    - Yuxin Wang
+    - Qiang Wang
+    - Shaohuai Shi
+    - Xin He
+    - Zhenheng Tang
+    - Kaiyong Zhao
+  date: 2020-05-11
+  page-total: 751
+  serial-number:
+    doi: 10.1109/CCGrid49817.2020.00-15
+
+JenH200Sam:
+  type: newspaper
+  title: "Nvidia CEO hand-delivers world's fastest AI system to OpenAI, again - first DGX H200 given to Sam Altman and Greg Brockman"
+  author: Dallin Grimm
+  date: 2024-04-25
+  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-ceo-hand-delivers-worlds-fastest-ai-system-to-openai-again-first-dgx-h200-given-to-sam-altman-and-greg-brockman

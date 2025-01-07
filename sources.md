@@ -17,3 +17,11 @@
 # Machine Learning Hardware
 
 - https://epoch.ai/data/machine-learning-hardware
+
+# Sustainable Strides: How AI and Accelerated Computing Are Driving Energy Efficiency
+
+- https://blogs.nvidia.com/blog/accelerated-ai-energy-efficiency/
+
+# Nvidia Ampere vs. AMD RDNA 2: Battle of the Architectures
+
+- https://www.techspot.com/article/2151-nvidia-ampere-vs-amd-rdna2/
