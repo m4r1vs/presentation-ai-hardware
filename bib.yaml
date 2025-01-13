@@ -40,3 +40,24 @@ MicrAcq500Mio:
   date: 2024-12-18
   publisher: FT
   url: https://www.ft.com/content/e85e43d1-5ce4-4531-94f1-9e9c1c5b4ff1
+
+Mak2022CompAcc:
+  type: article
+  title: "Computational Acceleration of Topology Optimization Using Parallel Computing and Machine Learning Methods – Analysis of Research Trends"
+  author:
+    - Y. Maksum
+    - A. Amirli
+    - A. Amangeldi
+    - M. Inkarbekov
+    - Y. Ding
+    - A. Romagnoli
+    - S. Rustamov
+    - B. Akhmetov
+  journal: Journal of Industrial Information Integration
+  volume: 28
+  year: 2022
+  pages: 35
+  issn: 2452-414X
+  serial-number:
+    doi: 10.1016/j.jii.2022.100352
+  url: https://www.sciencedirect.com/science/article/pii/S2452414X22000231
