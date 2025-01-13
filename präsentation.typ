@@ -3,7 +3,7 @@
   set page(
     margin: (rest: 1.5in, left: 2.7in),
     paper: "presentation-16-9",
-    fill: color.linear-rgb(255, 252, 240),
+    fill: color.linear-rgb(255, 252, 225),
   )
   set text(font: "EB Garamond", size: 16pt, lang: "de")
   set heading(numbering: "1.1.1", supplement: metadata("Shown"))
@@ -41,7 +41,7 @@
           ),
           align(
             center,
-            counter(page).display("1", both: false),
+            counter(page).display("1 von 1", both: true),
           ),
           align(
             right,
