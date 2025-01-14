@@ -137,3 +137,10 @@ NeuralEngineAAPL:
     - github.com/hollance
   url: https://github.com/hollance/neural-engine
   date: "2024-11"
+
+NvdaPromoH200:
+  type: web
+  title: "NVIDIA H200 Tensor Core GPU"
+  publisher: "NVIDIA"
+  url: https://www.nvidia.com/en-us/data-center/h200/
+  date: "2024"

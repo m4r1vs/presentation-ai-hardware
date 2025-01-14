@@ -311,3 +311,21 @@ gilt: $arrow(v) dot M = mat(v_1 dot M_(1,1) +v_2 dot M_(2,1);v_1 dot M_(1,2) + v
 #h(1em) ... GPUs sind sehr gut geeignet für maschinelles Lernen und KI. Ein Trend der bleibt. \
 #h(1em) ... Durch gekonnte Programmierung können auch viele andere Programme \
 #h(2em) durch GPUs beschleunigt werden.
+
+#pagebreak()
+
+== Neue NVIDIA H200
+
+#columns(
+  2,
+  [
+    #figure(
+      image("./llm-inference-chart.svg", height: 65%),
+      caption: [NVIDIA H200 Promo Material @NvdaPromoH200],
+    )
+    #figure(
+      image("./energy-tco-chart.svg", height: 80%),
+      caption: [NVIDIA H200 Promo Material @NvdaPromoH200],
+    )
+  ],
+)
