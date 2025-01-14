@@ -150,7 +150,7 @@
 
 #pagebreak()
 
-== Recurrant Neural Networks
+== Recurrent Neural Networks
 
 - Schlecht zu parallelisieren, da Gradienten voneinander abhängig sind:
 #columns(
@@ -171,7 +171,7 @@
 == Transformer und Generatoren
 
 - 2017 wurde "Attention Is All You Need" von Google veröffentlicht.
-- Grundstein für *parallelisierbare* Transformer wurde daduch gelegt. @AttnIsAllYouNeed \
+- Grundstein für *parallelisierbare* Transformer wurde dadurch gelegt. @AttnIsAllYouNeed \
   - Jahr darauf Veröffentlichung von GPT-1 (Generative Pretrained Transformer 1). @GPT1GitHub
 
 #pagebreak()
@@ -182,7 +182,7 @@
 
 1. Eingabe in Vektoren ("Tokens") aufteilen.
   - z.B. _"Ich"_ $= (231, 231, 534, 4, 321, 342, ...)$
-2. Vektorwerte durch $mono("Attention")$ aktuallisieren.
+2. Vektorwerte durch $mono("Attention")$ aktualisieren.
   - Sind wir oder #text("🍔", size: 14pt) mit _"Hamburger"_ gemeint?
 3. Kontext von Tokens durch Feed-Forward#super(ref(<ff-nn>)) erweitern.
   - z.B. Fakten speichern. @FactFind
