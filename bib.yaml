@@ -61,3 +61,79 @@ Mak2022CompAcc:
   serial-number:
     doi: 10.1016/j.jii.2022.100352
   url: https://www.sciencedirect.com/science/article/pii/S2452414X22000231
+
+AttnIsAllYouNeed:
+  type: article
+  title: "Attention Is All You Need"
+  author:
+    - Ashish Vaswani
+    - Noam Shazeer
+    - Niki Parmar
+    - Jakob Uszkoreit
+    - Llion Jones
+    - Aidan N. Gomez
+    - Lukasz Kaiser
+    - Illia Polosukhin
+  date: "2017"
+  archivePrefix: arXiv
+  serial-number:
+    doi: 10.48550/arXiv.1706.03762
+  url: https://arxiv.org/abs/1706.03762
+
+HopRNNSVG:
+  type: original
+  title: Hopfield-net-vector
+  date: "2025"
+  url: https://commons.wikimedia.org/wiki/File:Hopfield-net-vector.svg
+
+GPT1GitHub:
+  type: repository
+  title: "Improving Language Understanding by Generative Pre-Training"
+  author:
+    - Alec Radford
+    - Karthik Narasimhan
+    - Tim Salimans
+    - Ilya Sutskever
+  date: 2018-06
+  url: https://github.com/openai/finetune-transformer-lm
+
+ParallelizingNonLinearSeqModels:
+  type: article
+  title: "Parallelizing non-linear sequential models over the sequence length"
+  author:
+    - Yi Heng Lim
+    - Qi Zhu
+    - Joshua Selfridge
+    - Muhammad Firmansyah Kasim
+  date: "2024"
+  archivePrefix: arXiv
+  serial-number:
+    doi: arXiv.2309.12252
+  url: https://arxiv.org/abs/2309.12252
+
+FactFind:
+  type: article
+  title: "Facti Finding: Attempting to Reverse-Engineer Factual REcal on the Neruon Level"
+  author:
+    - Neel Nanda
+    - Senthooran Rajamanoharan
+    - János Kramár
+    - Rohin Shah
+  url: https://www.alignmentforum.org/s/hpWHhjvjn67LJ4xXX
+  date: "2023-12-23"
+
+TPUvsGPU:
+  type: article
+  title: "TPU vs GPU vs Cerebras vs Graphcore: A Fair Comparison between ML Hardware"
+  author:
+    - Mahmoud Khairy
+  url: https://khairy2011.medium.com/tpu-vs-gpu-vs-cerebras-vs-graphcore-a-fair-comparison-between-ml-hardware-3f5a19d89e38
+  date: "2020-07-23"
+
+NeuralEngineAAPL:
+  type: repository
+  title: "The Neural Engine - what do we know about it?"
+  author:
+    - github.com/hollance
+  url: https://github.com/hollance/neural-engine
+  date: "2024-11"
