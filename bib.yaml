@@ -9,6 +9,14 @@ NvTheChipBBC:
   url: https://www.bbc.com/news/business-65675027
   publisher: BBC
 
+CacheLocalGPU:
+  type: misc
+  title: "Mini Project: How to program a GPU? | CUDA C/C++"
+  author:
+    - Tushar Gautam
+  date: 2025-01-21
+  url: https://github.com/tgautam03/0Mean1Sigma/tree/master/2024-11-28-GPU-Programming
+
 BenchPerfGPU:
   type: article
   title: "Benchmarking the Performance and Energy Efficiency of AI Accelerators for AI Training"

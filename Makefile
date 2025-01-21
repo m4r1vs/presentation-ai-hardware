@@ -1,9 +1,11 @@
 all:
 	if [ ! -d font ]; then \
-		echo "Downloading font.."; \
+		echo "Downloading fonts.."; \
 		wget https://font.download/dl/font/eb-garamond-2.zip; \
+		wget https://github.com/samuelngs/apple-emoji-linux/releases/latest/download/AppleColorEmoji.ttf; \
 		mkdir font; \
 		unzip ./eb-garamond-2.zip -d font; \
+		mv ./AppleColorEmoji.ttf ./font/; \
 		rm ./eb-garamond-2.zip; \
 	fi; \
 	echo "Copying into Docker and compiling.."; \

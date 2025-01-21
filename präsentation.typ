@@ -284,7 +284,6 @@ gilt: $arrow(v) dot M = mat(v_1 dot M_(1,1) +v_2 dot M_(2,1);v_1 dot M_(1,2) + v
   caption: [CPU und GPU Abbildung],
 )
 
-
 #pagebreak()
 
 = Zusammenfassung
@@ -328,4 +327,13 @@ gilt: $arrow(v) dot M = mat(v_1 dot M_(1,1) +v_2 dot M_(2,1);v_1 dot M_(1,2) + v
       caption: [NVIDIA H200 Promo Material @NvdaPromoH200],
     )
   ],
+)
+
+#figure(
+  image("./cache_misses.png", height: 80%),
+  caption: [Schlechte Lokalität vom Speicher @CacheLocalGPU],
+)
+#figure(
+  image("./good_cache_locality.png", height: 80%),
+  caption: [Gute Speicherlokalität @CacheLocalGPU],
 )
