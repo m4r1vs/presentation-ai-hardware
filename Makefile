@@ -8,13 +8,20 @@ all:
 		mv ./AppleColorEmoji.ttf ./font/; \
 		rm ./eb-garamond-2.zip; \
 	fi; \
-	echo "Copying into Docker and compiling.."; \
+	echo "Copying slides into Docker and compiling.."; \
 	docker run \
 		--rm \
 		-v "$(PWD)":/workspace \
 		--env TYPST_FONT_PATHS=/workspace/font \
 		-w /workspace 123marvin123/typst \
 		typst compile präsentation.typ; \
+	echo "Copying main paper into Docker and compiling.."; \
+	docker run \
+		--rm \
+		-v "$(PWD)":/workspace \
+		--env TYPST_FONT_PATHS=/workspace/font \
+		-w /workspace 123marvin123/typst \
+		typst compile hardware-beschleunigung-fuer-ml-und-ai.typ; \
 	echo "Done. Opening with xdg-open"; \
 	xdg-open ./präsentation.pdf; \
 

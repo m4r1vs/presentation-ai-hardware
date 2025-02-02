@@ -2,7 +2,7 @@
 #include <iostream>
 
 // Matrix size
-#define N 100
+#define N 1000
 
 // CUDA kernel for matrix multiplication
 __global__ void matrixMulKernel(float *A, float *B, float *C, int n) {
@@ -20,7 +20,7 @@ __global__ void matrixMulKernel(float *A, float *B, float *C, int n) {
 
 int main() {
   // Matrix dimensions
-  int size = N * N * sizeof(float);
+  size_t size = static_cast<size_t>(N) * N * sizeof(float);
 
   // Allocate memory for host matrices
   float *h_A = (float *)malloc(size);
@@ -28,7 +28,7 @@ int main() {
   float *h_C = (float *)malloc(size);
 
   // Initialize host matrices with random values
-  for (int i = 0; i < N * N; i++) {
+  for (size_t i = 0; i < static_cast<size_t>(N) * N; i++) {
     h_A[i] = static_cast<float>(rand()) / RAND_MAX;
     h_B[i] = static_cast<float>(rand()) / RAND_MAX;
   }
@@ -49,7 +49,7 @@ int main() {
                (N + blockDim.y - 1) / blockDim.y);
 
   // Number of iterations
-  int iterations = 1000000; // Change this value to run the multiplication multiple times
+  int iterations = 100; // Change this value to run the multiplication multiple times
 
   // Perform matrix multiplication n times
   for (int i = 0; i < iterations; i++) {

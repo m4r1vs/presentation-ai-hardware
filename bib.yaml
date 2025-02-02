@@ -1,4 +1,42 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/typst/hayagriva/3bab47a7dd3cc0d23d19740e9ff697c9598b3ac1/hayagriva.schema.json
+Phi4:
+  type: report
+  title: "Phi-4 Technical Report"
+  author:
+    - Marah Abdin
+    - Jyoti Aneja
+    - Harkirat Behl
+    - Sébastien Bubeck
+    - Ronen Eldan
+    - Suriya Gunasekar
+    - Michael Harrison
+    - Russell J. Hewett
+    - Mojan Javaheripi
+    - Piero Kauffmann
+    - James R. Lee
+    - Yin Tat Lee
+    - Yuanzhi Li
+    - Weishung Liu
+    - Caio C. T. Mendes
+    - Anh Nguyen
+    - Eric Price
+    - Gustavo de Rosa
+    - Olli Saarikivi
+    - Adil Salim
+    - Shital Shah
+    - Xin Wang
+    - Rachel Ward
+    - Yue Wu
+    - Dingli Yu
+    - Cyril Zhang
+    - Yi Zhang
+  year: 2024
+  doi: 2412.08905
+  archivePrefix: arXiv
+  primaryClass: cs.CL
+  url: https://arxiv.org/abs/2412.08905
+      
+
 NvTheChipBBC:
   type: newspaper
   title: "Nvidia: The chip maker that became an AI superpower"
