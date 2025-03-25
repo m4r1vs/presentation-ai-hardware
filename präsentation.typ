@@ -5,7 +5,7 @@
     paper: "presentation-16-9",
     fill: color.linear-rgb(255, 252, 225),
   )
-  set text(font: "EB Garamond", size: 16pt, lang: "de")
+  set text(font: "EB Garamond 08", size: 16pt, lang: "de")
   set heading(numbering: "1.1.1", supplement: metadata("Shown"))
   line(start: (0%, 0%), end: (8in, 0%), stroke: (thickness: 2pt))
 
@@ -24,7 +24,7 @@
     )
   ]
   pagebreak()
-  set text(font: "EB Garamond", size: 20pt, lang: "de")
+  set text(font: "EB Garamond 08", size: 20pt, lang: "de")
   set page(
     margin: auto,
     footer: context [
@@ -55,7 +55,7 @@
   pagebreak()
   body
   pagebreak()
-  set text(font: "EB Garamond", size: 16pt, lang: "de")
+  set text(font: "EB Garamond 08", size: 16pt, lang: "de")
   heading(
     "Literaturverzeichnis",
     numbering: none,

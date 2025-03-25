@@ -1,7 +1,7 @@
 #let title-page(title: [], subtitle: [], fill: yellow, body) = {
   // set page( numbering: "1")
   set page(margin: (top: 1.5in, rest: 2in))
-  set text(font: "EB Garamond", size: 10pt, lang: "de")
+  set text(font: "EB Garamond 08", size: 10pt, lang: "de")
   set heading(numbering: "1.1.1")
   line(start: (0%, 0%), end: (8.5in, 0%), stroke: (thickness: 2pt))
   align(horizon + left)[
