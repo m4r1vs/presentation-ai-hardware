@@ -24,4 +24,3 @@ all:
 		typst compile hardware-beschleunigung-fuer-ml-und-ai.typ; \
 	echo "Done. Opening with xdg-open"; \
 	xdg-open ./präsentation.pdf; \
-

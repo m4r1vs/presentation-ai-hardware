@@ -47,6 +47,47 @@ NvTheChipBBC:
   url: https://www.bbc.com/news/business-65675027
   publisher: BBC
 
+DeepSeekDepl:
+  type: article
+  title: "A Note on DeepSeek R1 Deployment"
+  author:
+    - Xihan Li
+  date: 2025-01-30
+  url: https://snowkylin.github.io/blogs/a-note-on-deepseek-r1.html#:~:text=Note-,Models,8xH100)%20can%20barely%20hold%20it.
+
+CopilotPC:
+  type: article
+  title: "Microsoft announces Copilot Plus PC with built-in AI hardware"
+  author:
+    - Jacob Kastrenakes
+  date: 2024-05-20
+  url: https://www.theverge.com/2024/5/20/24160486/microsoft-copilot-plus-ai-arm-chips-pc-surface-event
+
+GPUDataCenterShare:
+  type: report
+  title: "GVR Report coverData Center GPU Market Size, Share & Trends Report Data Center GPU Market Size, Share & Trends Analysis Report By Deployment (On-premises, Cloud)"
+  publisher: Grand View Research
+  url: https://www.grandviewresearch.com/industry-analysis/data-center-gpu-market-report#
+
+cudaDocs:
+  type: reference
+  title: "CUDA Documenation"
+  publisher: NVidia
+  url: https://docs.nvidia.com/cuda/
+
+rocmDocs:
+  type: reference
+  title: "ROCm Documenation"
+  publisher: AMD
+  url: https://www.amd.com/en/products/software/rocm.html
+
+LLMbenchmarkAMDNVDA:
+  type: article
+  title: "Benchmarking NVIDIA TensorRT-LLM"
+  date: 2024-03-24
+  publisher: Menlo Research
+  url: https://jan.ai/post/benchmarking-nvidia-tensorrt-llm
+
 CacheLocalGPU:
   type: misc
   title: "Mini Project: How to program a GPU? | CUDA C/C++"
@@ -167,6 +208,14 @@ FactFind:
     - Rohin Shah
   url: https://www.alignmentforum.org/s/hpWHhjvjn67LJ4xXX
   date: "2023-12-23"
+
+AppleMacUnifiedAI:
+  type: article
+  title: "New 512GB Unified Memory Apple Mac Studio is the Local AI Play"
+  author:
+    - Cliff Robinson
+  url: https://www.servethehome.com/new-512gb-unified-memory-apple-mac-studio-is-the-local-ai-play/
+  date: 2025-03-05
 
 TPUvsGPU:
   type: article
